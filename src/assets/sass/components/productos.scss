@@ -1,0 +1,140 @@
+.botones_seccion{
+    display:inline-table;
+    margin-left: 30px;
+    a{
+        text-align: center;
+        display: grid;
+        margin-bottom:20px;
+        width: 250px;
+    }
+}
+
+.main_productos{
+    display: inline-flex;
+    margin-left: -100px;
+    margin-top: -15px;
+    text-align: center;
+
+}
+
+.bajar_producto{
+    display: inline-block;
+  }
+.section-content__title_1 {
+    font-size: 35px;
+    line-height: 35px;
+    color: #222;
+    font-weight: 600;
+    text-transform: capitalize;
+    clear: both;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: -100px;
+  }
+.alineacion_navbar_producto{
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 400px;
+  }
+.leyenda_producto{
+    display: inline-flex;
+    margin-top: -10000px;
+    margin-left: 750px;
+    align-items: center;
+    h10 {
+      margin-left:10px;
+    }
+    img {
+      margin-left: 5px;
+    }
+  }
+  .product__label--sale-out-1 {
+    background: #7FFF3F;
+    color: black !important
+  }
+  .product__label-1 {
+    text-align: center;
+    position: absolute;
+    top: 0.1px;
+    left: 0.11px;
+    padding: 5px 14px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    height: 30px;
+  }
+  .alertas_precio{
+    display: inline-flex;
+    border: 3px solid #ebebeb;
+    border-radius: 3px;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 14px;
+    width: 300px;
+    margin-top: -10px;
+  }
+  .alertas{
+    border: 3px solid #ebebeb;
+    border-radius: 3px;
+    padding: 10px 10px;
+    outline: none;
+    margin-top: -10px;
+    margin-right: 350px;
+    font-size: 14px;
+    width: 100px;
+  }
+  .alineacion_crear_producto{
+    align-items: right;
+  }
+  .display{
+    margin-top: 200px;
+    margin-left: -300px;
+    display:flex;
+    align-items: left;
+    width: fit-content;
+  }
+.alineacion_promociones{
+  margin-left: -600px;
+}
+.account-wrapper-promociones {
+  border: 2px solid #e5e5e5;
+  border-width:medium;
+  margin-top: -148px;
+  display: block;
+  margin-left: 370px;
+  margin-right: 200px;
+  h5{
+    padding: 20px 20px !important
+  }
+}
+.sidebar__widget_promociones {
+  margin-bottom: 4000px;
+  margin-right: 50px;
+}
+.form-box__single-group-2{
+  display: block;
+  margin-top: 25px;
+  width: 600px;
+}
+.form-box__single-group-2 label {
+  margin-top: auto;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 15px ;
+  margin-left: 40px;
+}
+.form-box__single-group-2 input, .form-box__single-group textarea, .form-box__single-group select {
+  display: inline-flex;
+  border: 3px solid #ebebeb;
+  border-radius: 3px;
+  padding: 10px 40px;
+  outline: none;
+  font-size: 14px;
+  width: 200px;
+}
+
+.color{
+  background-color: #E77060;
+}

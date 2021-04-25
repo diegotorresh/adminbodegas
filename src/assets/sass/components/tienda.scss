@@ -1,0 +1,195 @@
+.tiendas__prioption {
+    display: block;
+    align-items: center;
+    padding: 35px 0;
+    width: 100%;  
+    h3 {
+      color: #323232;
+      text-transform: uppercase;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-left: 40px;
+    }
+    a {
+      color: black;
+      margin-left: 900px;
+      text-align: right;
+      font-size: 1.2rem;
+      font-weight: 500;
+      text-decoration: none;
+      &:hover {
+        color: #89c74a;
+      }
+    }
+  }
+
+  .aviso{
+    background-color: #BFFFFF;
+  }
+  .aviso1{
+    background-color: #F3CAC9;
+  }
+
+  .leyenda{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 680px;
+    margin-bottom: 50px;
+    align-items: center;
+    h10 {
+      margin-left:10px;
+      margin-right: 50px;
+    }
+    img {
+      margin-top: 10px;
+      margin-left: 5px;
+    }
+  }
+  .tiendas__prioption_1 {
+    margin-left: 750px;
+    display: flex;
+    align-items: center;
+    padding: 35px 0px;
+    width: 100%;  
+    h3 {
+      color: #323232;
+      text-transform: uppercase;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-left: 40px;
+    }
+    a {
+      color: black;
+      margin-right: 40px;
+      text-align: right;
+      font-size: 1.2rem;
+      font-weight: 500;
+      text-decoration: none;
+      &:hover {
+        color: #89c74a;
+      }
+    label{
+      align-content: center;
+      }
+    }
+  }
+  
+  .tiendas__listcard {
+    background-color: white;
+    display: block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    .card {
+      margin-bottom: 35px;
+      margin-left: 100px;
+      width: 450px;
+      height: auto;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+      box-shadow: 2px 0px 39px -26px rgba(0, 0, 0, 0.75);
+      .card-title {
+        text-align: center;
+        color: #89c74a;
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+    }
+  }
+  .sombreado{
+    font-weight: 700;
+    text-align: justify;
+  }
+  .sombreado1{
+    text-align: right;
+  }
+  .table {
+    margin-left: 10px;
+    border-color: white;
+    width: auto;
+    margin-bottom: 20px;
+    tbody {
+      tr {
+        td {
+          width: auto;
+          padding: 5px 0px;
+          border-radius: 0%;
+          text-align: auto;
+        }
+      }
+    }
+  }
+  .espaciado{
+    margin-left: 20px;
+  }
+
+
+  
+  .tiendas__botones {
+    display: flex;
+    flex-wrap: wrap;
+    .tiendas__btnaprobar{
+      padding: 5px 10px;
+      border-radius: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 20px;
+      width: 190px;
+      height: 40px;
+      transition: background-color 0.3s ease-in-out;
+      text-decoration: none;
+      text-align: center;
+      font-weight: 500;
+    }
+    .tiendas__btneditar{
+      padding: 5px 10px;
+      border-radius: 50px;
+      margin-bottom: 10px;
+      margin-left: 20px;
+      width: 190px;
+      height: 40px;
+      transition: background-color 0.3s ease-in-out;
+      text-decoration: none;
+      text-align: center;
+      font-weight: 500;
+    }
+    .tiendas__btneliminar {
+      padding: 5px 10px;
+      border-radius: 50px;
+      margin-bottom: 10px;
+      margin-left: 20px;
+      width: 190px;
+      height: 40px;
+      transition: background-color 0.3s ease-in-out;
+      text-decoration: none;
+      text-align: center;
+      font-weight: 500;
+    }
+  
+    .tiendas__btnaprobar {
+      background-color: #89c74a;
+;
+      color: white;
+      &:hover {
+        background-color: darken($color: black, $amount: 5);
+      }
+    }
+    .tiendas__btneditar {
+      background-color: #89c74a;
+;
+      color: white;
+      &:hover {
+        background-color: darken($color: black, $amount: 5);
+      }
+    }
+    .tiendas__btneliminar {
+      background-color: black;
+      color: white;
+      &:hover {
+        background-color: darken($color: #89c74a
+, $amount: 5);
+      }
+    }
+  }

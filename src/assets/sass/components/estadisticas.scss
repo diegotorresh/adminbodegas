@@ -1,0 +1,139 @@
+.adminestadisticas__nav {
+    margin-bottom: 20px;
+    .nav-tabs {
+      border-bottom: 0px;
+      border-top: 1px solid #dee2e6;
+    }
+  }
+  
+  .adminestadisticas__h3,
+  .adminestadisticas__p {
+    color: #323232;
+  }
+  .adminestadisticas__h3 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .adminestadisticas__p {
+    font-weight: 700;
+  }
+  
+  .adminestadisticas__selectoption {
+    display: flex;
+    padding: 10px 0;
+    .adminestadisticas__time {
+      width: 100px;
+      input.form-check-input {
+        margin-left: 0px;
+        margin-top: 5px;
+      }
+      p {
+        margin-bottom: 0px;
+        margin-left: 18px;
+        padding: 0px;
+      }
+    }
+    .adminestadisticas__date {
+      display: flex;
+      justify-content: flex-end;
+      width: 500px;
+      p {
+        margin: 0px 4px 0px 8px;
+      }
+      input,
+      select {
+        padding: 0 5px;
+        height: 25px;
+        border: none;
+        width: 150px;
+        background-color: rgb(238, 238, 238);
+        color: #323232;
+      }
+    }
+  }
+  
+  .adminestadisticas__textarea {
+    width: 100%;
+    height: 70px;
+  }
+  
+  .adminestadisticas__product {
+    display: flex;
+    justify-content: space-between;
+  
+    .adminestadisticas__productinputs {
+      .adminestadisticas__productsearch {
+        display: flex;
+        justify-content: space-between;
+        p {
+          margin: 0px 20px 0px 0px;
+        }
+        input {
+          padding: 0 5px;
+          height: 25px;
+          border: none;
+          width: 178px;
+          background-color: rgb(238, 238, 238);
+          color: #323232;
+        }
+      }
+    }
+  }
+  .adminestadisticas__productssg {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    p {
+      margin: 0px 8px 0px 17px;
+    }
+    input.form-check-input {
+      margin-left: 0px;
+      margin-top: 5px;
+    }
+    select {
+      padding: 0 5px;
+      height: 25px;
+      border: none;
+      width: 100px;
+      background-color: rgb(238, 238, 238);
+      color: #323232;
+    }
+  }
+  
+  .adminestadisticas__botones {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    button {
+      border: none;
+      color: darken($color: #89c74a, $amount: 10);
+      border-radius: 5px;
+      padding: 5px 10px;
+      width: 200px;
+      margin-bottom: 10px;
+      transition: background-color 0.5s ease-in-out;
+      &:hover {
+        color: white;
+        background-color: darken($color: #89c74a, $amount: 10);
+      }
+    }
+  }
+  
+  // GRAFICOS
+  .adminestadisticas__graficos {
+    button {
+      border: none;
+      color: white;
+      background-color: darken($color: #36b417, $amount: 4);
+      padding: 3px 10px;
+      border-radius: 5px;
+      margin-bottom: 13px;
+      float: right;
+    }
+    div {
+      margin-top: 42px;
+      width: 100%;
+      height: 92%;
+      background-color: darkorange;
+    }
+  }
