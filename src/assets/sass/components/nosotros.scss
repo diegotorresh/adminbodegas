@@ -1,0 +1,72 @@
+.nosotros__informacion {
+    margin: 30px 0;
+    box-shadow: 2px 0px 39px -26px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    height: 400px;
+  }
+  .nosotros__editar {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    font-size: 1.2rem;
+    a {
+      color: rgb(35, 197, 13);
+      i {
+        margin-left: 5px;
+      }
+    }
+    h3 {
+      font-size: 1.6rem;
+      font-weight: bold;
+      color: #323232;
+    }
+  }
+  .nosotros__contenido {
+    display: flex;
+    margin-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    .fa-facebook-f {
+      color: #2858da;
+    }
+    .fa-instagram {
+      color: #e1306c;
+    }
+    .fa-whatsapp {
+      color: #25d366;
+    }
+  
+    i {
+      margin-right: 5px;
+      width: 30px;
+    }
+    textarea {
+      padding: 5px;
+    }
+    input {
+      width: 75%;
+    }
+    h4 {
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+  }
+  .nosotros__marcas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+    .nosotros__marcasimg {
+      width: 200px;
+      padding: 10px;
+      img {
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 2px 0px 39px -26px rgba(0, 0, 0, 0.75);
+      }
+    }
+  }

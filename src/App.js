@@ -4,6 +4,7 @@ import './assets/css/vendor/fontawesome.css'
 import './assets/sass/components/tienda.scss'
 import './assets/sass/components/productos.scss'
 import './assets/sass/components/estadisticas.scss'
+import './assets/sass/components/nosotros.scss'
 
 import {BrowserRouter as Router} from 'react-router-dom'
 import {Route, Switch} from 'react-router-dom'

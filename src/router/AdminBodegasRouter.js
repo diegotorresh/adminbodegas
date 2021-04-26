@@ -24,6 +24,7 @@ import Gaseosas from '../components/AdminBodegas/Productos/Bebidas/Gaseosas'
 import Estadisticas from '../components/AdminBodegas/Estadisticas/Estadisticas'
 import EstadisticasEvaluacion from '../components/AdminBodegas/Estadisticas/EstadisticasEvaluacion'
 import EstadisticasTodal from '../components/AdminBodegas/Estadisticas/EstadisticasTodal'
+import Nosotros from '../components/AdminBodegas/Nosotros/Nosotros'
 
 
 const AdminBodegasRoutes = () => {
@@ -53,6 +54,7 @@ const AdminBodegasRoutes = () => {
                 <Route exact path="/adminbodegas/estadisticas" component={Estadisticas}/>
                 <Route exact path="/adminbodegas/estadisticastodal" component={EstadisticasTodal}/>
                 <Route exact path="/adminbodegas/estadisticasevaluacion" component={EstadisticasEvaluacion}/>
+                <Route exact path="/adminbodegas/nosotros" component={Nosotros}/>
 
             </Switch>
         </Router>

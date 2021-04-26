@@ -25,7 +25,7 @@ function NavBar(){
                                         <a href="/adminbodegas/sugerencias" className="header__nav-link">Sugerencias</a>
                                     </li>
                                     <li className="header__nav-item pos-relative">
-                                        <a href="#" className="header__nav-link">Estadisticas</a>
+                                        <a href="/adminbodegas/estadisticastodal" className="header__nav-link">Estadisticas</a>
                                     </li>
                                     <li className="header__nav-item pos-relative">
                                         <a href="#" className="header__nav-link">Nosotros</a>

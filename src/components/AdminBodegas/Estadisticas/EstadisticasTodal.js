@@ -56,16 +56,15 @@ const EstadisticasTodal = () => {
                 <div className="adminestadisticas__selectoption">
                   <div className="adminestadisticas__time">
                     <input type="checkbox" className="form-check-input" />
-                    <p>Años</p>
+                    <p>Bodega1</p>
                   </div>
-                  <div className="adminestadisticas__date">
-                    <p>Seleccionar:</p>
-                    <select className="form-select">
-                      <option selected>2021</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
+                  <div className="adminestadisticas__time">
+                    <input type="checkbox" className="form-check-input" />
+                    <p>Bodega2</p>
+                  </div>
+                  <div className="adminestadisticas__time">
+                    <input type="checkbox" className="form-check-input" />
+                    <p>Bodega3</p>
                   </div>
                 </div>
               </div>
@@ -76,14 +75,10 @@ const EstadisticasTodal = () => {
                 <div className="adminestadisticas__product">
                   {/*  */}
                   <div className="adminestadisticas__productinputs">
-                    <div className="adminestadisticas__productsearch">
-                      <p>Buscar:</p>
-                      <input type="text" placeholder="search" />
-                    </div>
 
                     <div className="adminestadisticas__productssg">
                       <input type="checkbox" className="form-check-input" />
-                      <p>Presentación</p>
+                      <p>   Nombre</p>
                       <select className="form-select">
                         <option selected>2021</option>
                         <option value="1">One</option>
@@ -94,6 +89,16 @@ const EstadisticasTodal = () => {
                     <div className="adminestadisticas__productssg">
                       <input type="checkbox" className="form-check-input" />
                       <p>Marca</p>
+                      <select className="form-select">
+                        <option selected>2021</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                    <div className="adminestadisticas__productssg">
+                      <input type="checkbox" className="form-check-input" />
+                      <p>Presentación</p>
                       <select className="form-select">
                         <option selected>2021</option>
                         <option value="1">One</option>
@@ -124,6 +129,7 @@ const EstadisticasTodal = () => {
                         <option value="3">Three</option>
                       </select>
                     </div>
+                    
                   </div>
                 </div>
               </div>
@@ -131,18 +137,16 @@ const EstadisticasTodal = () => {
               <textarea className="adminestadisticas__textarea"></textarea>
               <div>
                 <p className="adminestadisticas__p pt-3">Dato a analizar</p>
-                <div className="adminestadisticas__botones">
-                  <button>Volumen de venta</button>
-                  <button>Ganancias</button>
-                  <button>Cantidad de productos</button>
-                  <button>Stock</button>
-                  <button>Exportar a excel</button>
+                <div className="boton adminestadisticas__botones">
+                  <button data-toggle="modal" class="btn btn--box btn--small btn--radius btn--green btn--green-hover-black btn--uppercase font--semi-bold">Volumen de venta</button>
+                  <button data-toggle="modal" class="btn btn--box btn--small btn--radius btn--green btn--green-hover-black btn--uppercase font--semi-bold">Ganancias</button>
+                  <button data-toggle="modal" class="btn btn--box btn--small btn--radius btn--green btn--green-hover-black btn--uppercase font--semi-bold">Cantidad de productos</button>
+                  <button data-toggle="modal" class="btn btn--box btn--small btn--radius btn--green btn--green-hover-black btn--uppercase font--semi-bold">Exportar a excel</button>
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 adminestadisticas__graficos">
-              <button>Actualizar</button>
-              <div>grafico</div>
+            <div>
+              <button data-toggle="modal" class="btn btn--box btn--small btn--radius btn--green btn--green-hover-black btn--uppercase font--semi-bold">Actualizar</button>
             </div>
           </div>
         </div>
